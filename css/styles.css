@@ -74,6 +74,6 @@ header{ display: flex; background-color: #fbfbfb; top: 0; left: 0; right: 0;
     height: 90px; align-items: center; position: fixed;} 
 #foto img{max-width: 400px; border-radius: 50%; width:80%;} 
 #foto {display: flex; flex-direction: column; justify-content: center; align-items: center;}
-#redes img{max-width: 100px;} 
+#redes img{max-width: 90px;} 
 #redes{display: flex; align-items: center; justify-content: space-around;}
 #hablemos ul{list-style: inside;}
