@@ -56,24 +56,43 @@ main {
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
 body{padding-top: 90px; font-family: 'Lato', sans-serif; background-color: #fbfbfb; 
-    color: #0f0f0f; font-size: 18px; line-height: 1.2; text-align: center;}
+    color: #0f0f0f; font-size: 18px; line-height: 1.2; text-align: center; }
+
+header{ display: flex; background-color: #fbfbfb; top: 0; left: 0; right: 0;
+        justify-content: space-between; height: 90px; align-items: center; position: fixed; 
+        border-bottom-style: groove ;}
+
+#menu{display: flex; width: 100% ;} 
+
+.menu-item{margin: 15px;}
+
+section{min-height: 100vh;} 
+
+h1{font-size: 36px; font-weight: bold ;} 
+h2{font-size: 28px; font-weight: bold;} 
+
 footer{background-color: #af599e; font-size: 16px; color: #fbfbfb; 
     height: 90px; display: flex; justify-content: center; align-items: center; 
-    margin: auto;}
-button{background-color: #af599e; color: #fbfbfb; 
+    margin: 0;}
+
+p{margin-top: 20px;margin-bottom: 20px;margin-left: 10px; margin-right: 10px;}
+
+#foto img{max-width: 400px; border-radius: 50%; width:80%; margin-top: 20px;} 
+
+#inicio{ display: flex; flex-direction: column; 
+    align-items: center;}
+
+#inicio a{background-color: #af599e; color: #fbfbfb; 
     font-size: 20px; padding: 20px; border-radius: 40px; max-width: 300px;}
-h1{font-size: 36px; } h2{font-size: 28px;} 
+
 #hablemos{background-color: rgba(175, 89, 158, 0.3); padding: 10px; 
-    border-radius: 20px; margin: 10px; display: flex; align-items: center; flex-direction: column; justify-content: space-around;}
-#presentacion{margin-left: 10px; margin-right: 10px; display: flex; flex-direction: column; justify-content: space-around; align-items: center;}
-section{min-height: 100vh;}
-p{margin-top: 20px;margin-bottom: 20px;}
-#logo{font-size: x-large;color: #e12047;}
-header{ display: flex; background-color: #fbfbfb; top: 0; left: 0; right: 0;
-    justify-content: space-around; width: 100%; border-bottom: #0b0a0a ;
-    height: 90px; align-items: center; position: fixed;} 
-#foto img{max-width: 400px; border-radius: 50%; width:80%;} 
-#foto {display: flex; flex-direction: column; justify-content: center; align-items: center;}
-#redes img{max-width: 90px;} 
-#redes{display: flex; align-items: center; justify-content: space-around;}
-#hablemos ul{list-style: inside;}
+    border-radius: 20px; margin: 10px;}
+
+#contactos img{max-width: 80px;} 
+
+#logo{font-size: x-large;color: #e12047; margin: 15px;}
+
+#contactos{display: flex; flex-direction: column; justify-content: center;}
+
+#redes{display:flex; justify-content: space-around; align-items: center; margin-top: 50px;}
+
