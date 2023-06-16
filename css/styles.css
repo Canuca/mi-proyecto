@@ -76,7 +76,7 @@ header{
     padding: 15px;
     align-items: center; 
     position: fixed; 
-    border-bottom-style: groove ;
+    border-bottom-style: groove;
 }
 
 section{
@@ -163,7 +163,7 @@ p{
 
 #menu{
     display: flex; 
-    width: 100% ;
+    width: 100%;
 } 
 
 .menu-item{
