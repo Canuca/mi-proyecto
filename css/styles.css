@@ -55,44 +55,117 @@ main {
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
-body{padding-top: 90px; font-family: 'Lato', sans-serif; background-color: #fbfbfb; 
-    color: #0f0f0f; font-size: 18px; line-height: 1.2; text-align: center; }
+body{
+    padding-top: 90px; 
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb; 
+    color: #0f0f0f; 
+    font-size: 18px; 
+    line-height: 1.2; 
+    text-align: center; 
+}
 
-header{ display: flex; background-color: #fbfbfb; top: 0; left: 0; right: 0;
-        justify-content: space-between; height: 90px; align-items: center; position: fixed; 
-        border-bottom-style: groove ;}
+header{ 
+    display: flex; 
+    background-color: #fbfbfb; 
+    top: 0; 
+    left: 0; 
+    right: 0;
+    justify-content: space-between; 
+    height: 90px; 
+    padding: 15px;
+    align-items: center; 
+    position: fixed; 
+    border-bottom-style: groove ;
+}
 
-#menu{display: flex; width: 100% ;} 
+section{
+    min-height: 100vh;
+} 
 
-.menu-item{margin: 15px;}
+h1{
+    font-size: 36px; 
+    font-weight: bold ;
+} 
+h2{
+    font-size: 28px; 
+    font-weight: bold;
+} 
 
-section{min-height: 100vh;} 
+footer{
+    background-color: #af599e; 
+    font-size: 16px; 
+    color: #fbfbfb; 
+    height: 90px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0;
+}
 
-h1{font-size: 36px; font-weight: bold ;} 
-h2{font-size: 28px; font-weight: bold;} 
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px; 
+    margin-right: 10px;
+}
 
-footer{background-color: #af599e; font-size: 16px; color: #fbfbfb; 
-    height: 90px; display: flex; justify-content: center; align-items: center; 
-    margin: 0;}
+#foto img{
+    max-width: 400px; 
+    border-radius: 50%; 
+    width:80%; 
+    margin-top: 20px;
+} 
 
-p{margin-top: 20px;margin-bottom: 20px;margin-left: 10px; margin-right: 10px;}
+#inicio{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
 
-#foto img{max-width: 400px; border-radius: 50%; width:80%; margin-top: 20px;} 
+#inicio a{
+    background-color: #af599e; 
+    color: #fbfbfb; 
+    font-size: 20px; 
+    padding: 20px; 
+    border-radius: 40px; 
+    max-width: 300px;
+}
 
-#inicio{ display: flex; flex-direction: column; 
-    align-items: center;}
+#hablemos{
+    background-color: rgba(175, 89, 158, 0.3);
+    padding: 10px; 
+    border-radius: 20px; 
+    margin: 10px;
+}
 
-#inicio a{background-color: #af599e; color: #fbfbfb; 
-    font-size: 20px; padding: 20px; border-radius: 40px; max-width: 300px;}
+#contactos img{
+    max-width: 80px;
+} 
 
-#hablemos{background-color: rgba(175, 89, 158, 0.3); padding: 10px; 
-    border-radius: 20px; margin: 10px;}
+#logo{
+    font-size: x-large;
+    color: #e12047;
+}
 
-#contactos img{max-width: 80px;} 
+#contactos{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
 
-#logo{font-size: x-large;color: #e12047; margin: 15px;}
+#redes{
+    display:flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 50px;
+}
 
-#contactos{display: flex; flex-direction: column; justify-content: center;}
+#menu{
+    display: flex; 
+    width: 100% ;
+} 
 
-#redes{display:flex; justify-content: space-around; align-items: center; margin-top: 50px;}
-
+.menu-item{
+    margin: 15px;
+}
